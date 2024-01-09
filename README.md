@@ -12,10 +12,14 @@ More details are available in our [project page](https://github.com/lzw-lzw/LEGO
     The overall structure of LEGO. Blue boxes represent video as input, while yellow boxes represent image as input.
 </p>
 
-## Code 
-We will soon open-source our codes and models, stay tuned!
-
+## Release
+We will soon open-source our datasets, codes and models, stay tuned!
+- [1/11] 🔥 We released the LEGO [paper](https://github.com/lzw-lzw/LEGO).
 
 ## Demo
 
 
+## Acknowledgement
+- [LLaVA](https://github.com/haotian-liu/LLaVA)
+- [Video-LLaMA](https://github.com/DAMO-NLP-SG/Video-LLaMA)
+- [Shikra](https://github.com/shikras/shikra)
