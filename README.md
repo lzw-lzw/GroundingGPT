@@ -1,6 +1,6 @@
 # LEGO:Language-Enhanced Multi-modal Grounding Model
 
-<a href='https://lzw-lzw.github.io/LEGO.github.io/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>  <a href='https://github.com/lzw-lzw/LEGO'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a> 
+<a href='https://lzw-lzw.github.io/LEGO.github.io/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>  <a href='https://arxiv.org/abs/2401.06071'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a> 
 
 <p align="center">
     <img src="images/logo.png" width="20%"> <br>
