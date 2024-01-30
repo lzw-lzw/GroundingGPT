@@ -2,9 +2,6 @@
 
 <a href='https://lzw-lzw.github.io/GroundingGPT.github.io/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>  <a href='https://arxiv.org/abs/2401.06071'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a> 
 
-<p align="center">
-    <img src="images/logo.png" width="20%"> <br>
-</p>
 
 ## Introduction
 GroundingGPT is an end-to-end multimodal grounding model that accurately comprehends inputs and possesses robust grounding capabilities across multi modalities,including images, audios, and videos. To address the issue of limited data, we construct a diverse and high-quality multimodal training dataset. This dataset encompasses a rich collection of multimodal data enriched with spatial and temporal information, thereby serving as a valuable resource to foster further advancements in this field. Extensive experimental evaluations validate the effectiveness of the GroundingGPT model in understanding and grounding tasks across various modalities. 
