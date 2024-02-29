@@ -13,13 +13,10 @@ More details are available in our [project page](https://lzw-lzw.github.io/Groun
     The overall structure of GroundingGPT. Blue boxes represent video as input, while yellow boxes represent image as input.
 </p>
 
-## Release
-We will soon open-source our datasets, codes and models, stay tuned!
+## News
+* **[2024.3.1]**  Our code are available now!
 
 
-## Content
-
-## Demo
 
 ## Statement of Clarification
 We hereby clarify that the Language Enhanced Multi-modal Grounding Model (formerly referred to as a LEGO Language Model), which has been modified to GroundingGPT, is in no way associated with or endorsed by the LEGO Group. There is no investment, collaboration, or any other form of relationship between the LEGO Group and our model previously using the LEGO name. We kindly request that any media or third-party entities that have published or disseminated inaccurate or misleading reports regarding this model promptly correct or remove the misinformation. Your immediate attention to this matter would be greatly appreciated. We deeply apologize for any confusion, inconvenience, or harm caused by these misconducts to the LEGO Group.
