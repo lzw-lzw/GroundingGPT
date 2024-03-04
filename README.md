@@ -14,7 +14,8 @@ More details are available in our [project page](https://lzw-lzw.github.io/Groun
 </p>
 
 ## News
-* **[2024.3.1]**  Our code are available now!
+* **[2024.3.5]**  Our [training code](https://huggingface.co/datasets/zwli/GroundingGPT) are available now!
+* **[2024.3.1]**  Our code are available now! 
 
 
 
