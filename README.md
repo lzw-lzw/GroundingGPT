@@ -14,8 +14,9 @@ More details are available in our [project page](https://lzw-lzw.github.io/Groun
 </p>
 
 ## News
-* **[2024.3.5]**  Our [training dataset](https://huggingface.co/datasets/zwli/GroundingGPT) are available now!
-* **[2024.3.1]**  Our code are available now! 
+* **[2024.4]**  Our [model](https://huggingface.co/zwli/GroundingGPT) is available now!
+* **[2024.3]**  Our [training dataset](https://huggingface.co/datasets/zwli/GroundingGPT) are available now!
+* **[2024.3]**  Our code are available now! 
 
 ## Dependencies and Installation
         git clone https://github.com/lzw-lzw/GroundingGPT.git
@@ -51,14 +52,14 @@ More details are available in our [project page](https://lzw-lzw.github.io/Groun
 
 ## Inference
 
-- Download GroundingGPT-7B and change the model_path in `GroundingGPT/lego/serve/cli.py`
+- Download [GroundingGPT-7B](https://huggingface.co/zwli/GroundingGPT) and change the model_path in `GroundingGPT/lego/serve/cli.py`
 - Use the script to inference
 
         python3 lego/serve/cli.py
 
 
 ## Demo
-- Download GroundingGPT-7B and change the model_path in line 141 of `GroundingGPT/lego/serve/gradio_web_server.py`
+- Download [GroundingGPT-7B](https://huggingface.co/zwli/GroundingGPT) and change the model_path in line 141 of `GroundingGPT/lego/serve/gradio_web_server.py`
 - Use the script to launch a gradio web demo
 
         python3 lego/serve/gradio_web_server.py
