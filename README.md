@@ -33,8 +33,21 @@ More details are available in our [project page](https://lzw-lzw.github.io/Groun
 - Prepare blip2 checkpoint: download [blip2_pretrained_flant5xxl.pth](https://storage.googleapis.com/sfr-vision-language-research/LAVIS/models/BLIP2/blip2_pretrained_flant5xxl.pth) in link and put it under directory `./ckpt`.
   
 ### Training dataset preparation
+- Please put the prepared checkpoints in file `dataset`.
+- Prepare LLaVA, COCO, GQA, OCR-VQA, TextVQA, VisualGenome datasets: follow [LLaVA](https://github.com/haotian-liu/LLaVA).
+- Prepare Flickr30K-Entities datasets: follow [Flickr30K-Entities](https://bryanplummer.com/Flickr30kEntities/).
+- Prepare Valley datasets: follow [Valley](https://github.com/RupertLuo/Valley).
+- Prepare DiDeMO datasets: follow [DiDeMO](https://github.com/LisaAnne/TemporalLanguageRelease).
+- Prepare ActivityNet Captions datasets: follow [ActivityNet Captions](https://cs.stanford.edu/people/ranjaykrishna/densevid/).
+- Prepare Charades-STA datasets: follow [Charades-STA](https://github.com/jiyanggao/TALL).
+- Prepare VGGSS datasets: follow [VGGSS](https://www.robots.ox.ac.uk/~vgg/research/lvs/).
+- Prepare WaveCaps datasets: follow [WaveCaps](https://github.com/XinhaoMei/WavCaps).
+- Prepare Clotho datasets: follow [Clotho](https://zenodo.org/records/3490684).
+
 
 ### Training
+
+
 
 ## Inference
 
