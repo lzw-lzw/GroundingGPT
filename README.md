@@ -17,8 +17,39 @@ More details are available in our [project page](https://lzw-lzw.github.io/Groun
 * **[2024.3.5]**  Our [training dataset](https://huggingface.co/datasets/zwli/GroundingGPT) are available now!
 * **[2024.3.1]**  Our code are available now! 
 
+## Dependencies and Installation
+        git clone https://github.com/lzw-lzw/GroundingGPT.git
+        cd GroundingGPT
+        conda create -n groundinggpt python=3.10 -y
+        conda activate groundinggpt
+        pip install -r requirements.txt 
+        pip install flash-attn --no-build-isolation
 
 
+## Training
+### Training model preparation
+- Put the prepared checkpoints in directory `./ckpt`.
+- Prepare ImageBind checkpoint: download [imagebind_huge.pth](https://dl.fbaipublicfiles.com/imagebind/imagebind_huge.pth) in link and put it under directory `./ckpt/imagebind`.
+- Prepare blip2 checkpoint: download [blip2_pretrained_flant5xxl.pth](https://storage.googleapis.com/sfr-vision-language-research/LAVIS/models/BLIP2/blip2_pretrained_flant5xxl.pth) in link and put it under directory `./ckpt`.
+  
+### Training dataset preparation
+
+### Training
+
+## Inference
+
+- Download GroundingGPT-7B and change the model_path in `GroundingGPT/lego/serve/cli.py`
+- Use the script to inference
+
+        python3 lego/serve/cli.py
+
+
+## Demo
+- Download GroundingGPT-7B and change the model_path in line 141 of `GroundingGPT/lego/serve/gradio_web_server.py`
+- Use the script to launch a gradio web demo
+
+        python3 lego/serve/gradio_web_server.py
+  
 ## Statement of Clarification
 We hereby clarify that the Language Enhanced Multi-modal Grounding Model (formerly referred to as a LEGO Language Model), which has been modified to GroundingGPT, is in no way associated with or endorsed by the LEGO Group. There is no investment, collaboration, or any other form of relationship between the LEGO Group and our model previously using the LEGO name. We kindly request that any media or third-party entities that have published or disseminated inaccurate or misleading reports regarding this model promptly correct or remove the misinformation. Your immediate attention to this matter would be greatly appreciated. We deeply apologize for any confusion, inconvenience, or harm caused by these misconducts to the LEGO Group.
 
