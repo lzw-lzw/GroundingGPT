@@ -72,53 +72,7 @@ class Chat:
                 video_tensor=tensor
             if modality=='sound':
                 sound_tensor=tensor
-        # if 'image' in images_tensor[1]:
-        #     image_tensor = images_tensor[0][0]
-        # else:
-        #     image_tensor = None
-        # if 'video' in images_tensor[1]:
-        #     video_tensor = images_tensor[0][0] 
-        # else:
-        #     video_tensor = None            
-        # if 'sound' in images_tensor[1]:
-        #     sound_tensor = images_tensor[0] 
-        # else:
-        #     sound_tensor = None          
-        
-        # if 'image' in images_tensor[1] and 'video' not in images_tensor[1]:
-        #     input_ids = tokenizer_X_token(prompt, tokenizer, X_TOKEN_INDEX['IMAGE'], return_tensors='pt').unsqueeze(0).to(self.device)
-        # elif 'image' not in images_tensor[1] and 'video' in images_tensor[1]:
-        #     input_ids = tokenizer_X_token(prompt, tokenizer, X_TOKEN_INDEX['VIDEO'], return_tensors='pt').unsqueeze(0).to(self.device)
-        # elif 'image' in images_tensor[1] and 'video' in images_tensor[1]:
-        #     # <video>\nxxxxxxx\n<image>
-        #     '''
-        #     tensor([[1, -200, 29871, 13, 3068, 366, 1074, 1716, 278, 1967, 322, 4863, 29973, 319, 1799, 9047, 13566, 29901]])
-        #     tensor([[1, -201, 29871, 13]])
-        #     '''
-        #     print("split: ", prompt.split('\n<image>'))
-        #     # print("\n", tokenizer_X_token('\n', tokenizer, X_TOKEN_INDEX['IMAGE'], return_tensors='pt'))
-        #     # print("?", tokenizer_X_token('?', tokenizer, X_TOKEN_INDEX['IMAGE'], return_tensors='pt'))
-        #     # print("image", tokenizer_X_token('image', tokenizer, X_TOKEN_INDEX['IMAGE'], return_tensors='pt'))
-        #     # print("image?", tokenizer_X_token('image?', tokenizer, X_TOKEN_INDEX['IMAGE'], return_tensors='pt'))
-        #     # print("USER: <image>\nWhat is unusual about this image?", tokenizer_X_token('USER: <image>\nWhat is unusual about this image?', tokenizer, X_TOKEN_INDEX['IMAGE'], return_tensors='pt'))
-        #     input_ids1 = tokenizer_X_token(prompt.split('\n<image>')[0], tokenizer, X_TOKEN_INDEX['VIDEO'], return_tensors='pt').unsqueeze(0).to(self.device)
-        #     print('input_ids1', input_ids1)
-        #     input_ids2 = tokenizer_X_token(prompt.split('\n<image>')[-1], tokenizer, X_TOKEN_INDEX['VIDEO'], return_tensors='pt').unsqueeze(0).to(self.device)
-        #     print('input_ids2', input_ids2)
-        #     input_ids3 = tokenizer_X_token('\n<image>', tokenizer, X_TOKEN_INDEX['IMAGE'], return_tensors='pt').unsqueeze(0).to(self.device)
-        #     print('input_ids3', input_ids3)
-
-        #     input_ids = torch.cat([input_ids1, input_ids3[:, 1:], input_ids2[:, 1:]], dim=-1)
-        #     print('input_ids', input_ids)
-        #     print(*[tokenizer.decode(i) for i in input_ids2[0]])
-        # else:
-        #     input_ids = tokenizer_X_token(prompt, tokenizer, X_TOKEN_INDEX['IMAGE'], return_tensors='pt').unsqueeze(0).to(self.device)
-    
-
-        # stop_str = conv_templates[self.conv_mode].copy().sep if conv_templates[self.conv_mode].copy().sep_style != SeparatorStyle.TWO else \
-        # conv_templates[self.conv_mode].copy().sep2
-        # keywords = [stop_str]
-        # stopping_criteria = KeywordsStoppingCriteria(keywords, tokenizer, input_ids)
+              
         stop_str = state.sep if state.sep_style != SeparatorStyle.TWO else state.sep2
         keywords = [stop_str]
         stopping_criteria = KeywordsStoppingCriteria(keywords, tokenizer, input_ids)
