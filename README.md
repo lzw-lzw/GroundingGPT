@@ -72,3 +72,12 @@ We hereby clarify that the Language Enhanced Multi-modal Grounding Model (former
 - [Video-LLaMA](https://github.com/DAMO-NLP-SG/Video-LLaMA)
 - [Shikra](https://github.com/shikras/shikra)
 
+### Citation
+If you find GroundingGPT useful for your your research and applications, please cite using this BibTeX:
+    
+    @article{li2024lego,
+      title={LEGO: Language Enhanced Multi-modal Grounding Model},
+      author={Li, Zhaowei and Xu, Qi and Zhang, Dong and Song, Hang and Cai, Yiqing and Qi, Qi and Zhou, Ran and Pan, Junting and Li, Zefeng and Vu, Van Tu and others},
+      journal={arXiv preprint arXiv:2401.06071},
+      year={2024}
+    }
