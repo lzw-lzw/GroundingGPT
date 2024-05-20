@@ -1,6 +1,6 @@
 # GroundingGPT: Language-Enhanced Multi-modal Grounding Model
 
-<a href='https://lzw-lzw.github.io/GroundingGPT.github.io/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>  <a href='https://arxiv.org/abs/2401.06071'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a> 
+<a href='https://lzw-lzw.github.io/GroundingGPT.github.io/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>  <a href='https://arxiv.org/abs/2401.06071'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a> [![](https://img.shields.io/badge/Datasets-GroundingGPT-yellow)](https://huggingface.co/datasets/zwli/GroundingGPT) [![](https://img.shields.io/badge/Models-GroundingGPT-yellow)](https://huggingface.co/zwli/GroundingGPT)   
 
 
 ## Introduction
@@ -14,6 +14,7 @@ More details are available in our [project page](https://lzw-lzw.github.io/Groun
 </p>
 
 ## News
+* **[2024.5]**  Our paper is accepted to ACL 2024!
 * **[2024.4]**  Our [model](https://huggingface.co/zwli/GroundingGPT) is available now!
 * **[2024.3]**  Our [training dataset](https://huggingface.co/datasets/zwli/GroundingGPT) are available now!
 * **[2024.3]**  Our code are available now! 
