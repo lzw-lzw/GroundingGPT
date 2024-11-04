@@ -49,7 +49,7 @@ More details are available in our [project page](https://lzw-lzw.github.io/Groun
 
 ### Training
 
-
+-
 
 ## Inference
 
@@ -64,9 +64,7 @@ More details are available in our [project page](https://lzw-lzw.github.io/Groun
 - Use the script to launch a gradio web demo
 
         python3 lego/serve/gradio_web_server.py
-  
-## Statement of Clarification
-We hereby clarify that the Language Enhanced Multi-modal Grounding Model (formerly referred to as a LEGO Language Model), which has been modified to GroundingGPT, is in no way associated with or endorsed by the LEGO Group. There is no investment, collaboration, or any other form of relationship between the LEGO Group and our model previously using the LEGO name. We kindly request that any media or third-party entities that have published or disseminated inaccurate or misleading reports regarding this model promptly correct or remove the misinformation. Your immediate attention to this matter would be greatly appreciated. We deeply apologize for any confusion, inconvenience, or harm caused by these misconducts to the LEGO Group.
+
 
 ## Acknowledgement
 - [LLaVA](https://github.com/haotian-liu/LLaVA)
@@ -76,9 +74,10 @@ We hereby clarify that the Language Enhanced Multi-modal Grounding Model (former
 ### Citation
 If you find GroundingGPT useful for your your research and applications, please cite using this BibTeX:
     
-    @article{li2024lego,
-      title={LEGO: Language Enhanced Multi-modal Grounding Model},
-      author={Li, Zhaowei and Xu, Qi and Zhang, Dong and Song, Hang and Cai, Yiqing and Qi, Qi and Zhou, Ran and Pan, Junting and Li, Zefeng and Vu, Van Tu and others},
-      journal={arXiv preprint arXiv:2401.06071},
+    @inproceedings{li2024groundinggpt,
+      title={Groundinggpt: Language enhanced multi-modal grounding model},
+      author={Li, Zhaowei and Xu, Qi and Zhang, Dong and Song, Hang and Cai, Yiqing and Qi, Qi and Zhou, Ran and Pan, Junting and Li, Zefeng and Tu, Vu and others},
+      booktitle={Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+      pages={6657--6678},
       year={2024}
     }
